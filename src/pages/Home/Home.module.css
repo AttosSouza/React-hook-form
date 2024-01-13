@@ -1,0 +1,285 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.imgBx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #F3FFF2;
+}
+
+.details { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.details .content p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  color: #1A202C;
+}
+
+.details .content h1 {
+  font-size: 2rem;
+  color: #1A202C;
+}
+
+form {
+  margin-top: 3rem;
+}
+
+.inputControl {
+  margin: 2rem 0;
+}
+
+.inputControl label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+  color: #1A202C;
+}
+
+.inputControl input {
+  width: 400px;
+  height: 50px;
+  padding: 1rem;
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
+  background-color: #F7FAFC;
+  color: #656769;
+}
+
+::placeholder {
+  color: #656769;
+}
+
+.passwordTerm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.myPassword a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1E9E6A;
+}
+
+.myPassword a:hover {
+  color: green;
+}
+
+.buttonControl {
+  position: relative;
+}
+
+.buttonControl img {
+  position: absolute;
+  top: 28px;
+  left: 70px;
+}
+
+.buttonWrapper p::before {
+  position: relative;
+  top: 12px;
+  left: 0;
+  display: block;
+  content: "";
+  width: 170px;
+  height: 2px;
+  background-color: #E8E8E8;
+}
+
+.buttonWrapper p::after {
+  position: relative;
+  top: -7px;
+  left: 230px;
+  display: block;
+  content: "";
+  width: 170px;
+  height: 2px;
+  background-color: #E8E8E8;
+}
+
+.register p {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+}
+
+.register a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1E9E6A;
+}
+
+.register a:hover {
+  color: green;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .imgBx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #F3FFF2;
+  }
+
+  .imgBx img {
+    width: 300px;
+  }
+  
+  .details { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 1.5rem;
+  }
+  
+  .details .content p {
+    font-size: 1rem;
+  }
+
+  .details .content h1 {
+    font-size: 1.6rem;
+    color: #1A202C;
+  }
+
+  .inputControl label {
+    font-size: 1rem;
+  }
+
+  .inputControl input {
+    width: 320px;
+    border-radius: 5px;
+  }
+
+  .terms label {
+    font-size: 0.9rem;
+  }
+
+  .myPassowrd a {
+    font-size: 0.9rem;
+  }
+
+  button {
+     width: 320px !important;
+  }
+
+  .buttonControl img {
+    position: absolute;
+    top: 28px;
+    left: 35px;
+  }
+
+  .buttonWrapper p::before {
+    width: 120px;
+  }
+  
+  .buttonWrapper p::after {
+    position: relative;
+    top: -7px;
+    left: 200px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .imgBx  {
+    display: none;
+  } 
+
+  .details { 
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .details .content p {
+    font-size: 1rem;
+  }
+
+  .details .content h1 {
+    font-size: 1.6rem;
+    color: #1A202C;
+  }
+
+  .inputControl label {
+    font-size: 1rem;
+  }
+
+  .inputControl input {
+    width: 320px;
+    border-radius: 5px;
+  }
+
+  .terms label {
+    font-size: 0.9rem;
+  }
+
+  .myPassowrd a {
+    font-size: 0.9rem;
+  }
+
+  button {
+     width: 320px !important;
+  }
+
+  .buttonControl img {
+    position: absolute;
+    top: 28px;
+    left: 35px;
+  }
+
+  .buttonWrapper p::before {
+    width: 120px;
+  }
+  
+  .buttonWrapper p::after {
+    position: relative;
+    top: -7px;
+    left: 200px;
+    width: 120px;
+  }
+
+}
+
+
+
+
+
+
+
+

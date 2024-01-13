@@ -1,0 +1,31 @@
+.customButton {
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor:pointer;
+}
+
+.buttonPrimary {
+  margin: 35px 0 24px 0;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.6);
+  background-color: #1E9E6A;
+  color: #FFFFFF;
+}
+
+.buttonPrimary:hover {
+  background-color: green;
+}
+
+.buttonSecondary {
+  margin-top: 14px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.6);
+  background-color: #1A202C; /* Red */
+  color: #FFFFFF;
+}
+
+.buttonSecondary:hover {
+  background-color: #000000; /* Red */
+}
+
