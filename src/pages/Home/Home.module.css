@@ -257,7 +257,7 @@ form {
      width: 320px !important;
   }
 
-  .buttonControl img {
+  .buttonControl svg {
     position: absolute;
     top: 28px;
     left: 35px;
