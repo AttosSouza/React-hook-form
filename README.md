@@ -1,8 +1,28 @@
-# React + Vite
+# React-hook-form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![reactform](https://github.com/AttosSouza/Calculator/assets/87350423/bb37a7db-37e0-4b0b-b013-d7808a2fcc16)
 
-Currently, two official plugins are available:
+Este é um formulário de login com validações no lado do cliente com um customHook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tecnologias usadas neste projeto:** 
+
+React js
+
+React Router
+
+Css modules
+
+<br />
+
+This is a login form with client-side validations using a customHook.
+
+**Technologies used in this project:**
+
+React js
+
+React Router
+
+Css modules
+
+
+
