@@ -5,6 +5,7 @@ import useForm from '../../hooks/useForm';
 import Checkbox from '../../components/Form/Checkbox';
 import Button from '../../components/Form/Button';
 import Group from '../../assets/images/Group.svg?react';
+import GoogleIcon from '../../assets/images/iconfinder_Google.svg?react';
 
 const Home = () => {
   const email = useForm('email');
@@ -69,7 +70,7 @@ const Home = () => {
                   <p style={{ textAlign: 'center', fontWeight: 100 }}>Or</p>
                   <div className={styles.buttonControl}>
                     <Button type="secondary">Log in with Google</Button>
-                    <img src="src/assets/images/iconfinder_Google.svg" alt="" />
+                    <GoogleIcon />
                   </div>
                 </div>
                 <div className={styles.register}>
