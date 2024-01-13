@@ -4,6 +4,7 @@ import Input from '../../components/Form/Input';
 import useForm from '../../hooks/useForm';
 import Checkbox from '../../components/Form/Checkbox';
 import Button from '../../components/Form/Button';
+import Group from '../../assets/images/Group.svg?react';
 
 const Home = () => {
   const email = useForm('email');
@@ -25,7 +26,7 @@ const Home = () => {
       <main>
         <div className={styles.wrapper}>
           <div className={styles.imgBx}>
-            <img src="src/assets/images/Group.svg" alt="" />
+            <Group />
           </div>
           <div className={styles.details}>
             <div className={styles.content}>
